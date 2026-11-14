@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台灣常見岩石圖鑑</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>台灣常見岩石圖鑑</h1>
+      <p>從澎湖的玄武岩到太魯閣的大理岩，認識腳下這座島的組成。</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="filters" aria-label="依岩類篩選">
+      <button class="filter-btn is-active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="igneous">火成岩</button>
+      <button class="filter-btn" data-filter="sedimentary">沉積岩</button>
+      <button class="filter-btn" data-filter="metamorphic">變質岩</button>
+    </nav>
+
+    <section class="grid" id="rock-grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    TAICA 生成式 AI 課程作業 ・ 本站依 CLAUDE.md 規則由 AI 協作建置
+  </footer>
+
+  <script src="js/rocks.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
