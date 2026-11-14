@@ -2,7 +2,7 @@
 
 給一般人看的台灣岩石入門網站：每種岩石一頁，說明它怎麼形成、怎麼辨認、在台灣哪裡看得到，首頁可依火成岩／沉積岩／變質岩篩選。
 
-- 網站：https://<你的帳號>.github.io/taiwan-rocks/
+- 網站：https://xiou0601.github.io/taiwan-rocks/
 - 專案規則：[CLAUDE.md](CLAUDE.md)（AI 新增或修改內容時依此規則進行）
 
 ## 目前收錄
